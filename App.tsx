@@ -28,6 +28,15 @@ const PROJECTS: Project[] = [
   },
   {
     id: '03',
+    title: 'JEE Mock Tracker',
+    description: 'Advanced score visualization and competitive ranking analysis.',
+    url: 'https://jeemocktracker.netlify.app/',
+    color: '#fff',
+    type: 'planet',
+    coordinates: { x: 0, y: 0, z: 0 }
+  },
+  {
+    id: '04',
     title: 'BatchWise Hub',
     description: 'The neural network of the community hub.',
     url: 'https://t.me/BatchWise',
@@ -155,7 +164,7 @@ const App: React.FC = () => {
         </footer>
       </main>
 
-      <AstroAssistant />
+      < AstroAssistant />
       
       {/* Decorative light wrap */}
       <div className="fixed inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,rgba(5,5,5,0.4)_100%)] z-30" />
